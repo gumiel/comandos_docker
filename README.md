@@ -18,5 +18,5 @@ docker run --rm -d  --name henrynginx2 // crea el contenedor y al momento de pon
 docker run -d -p 8000:80 --name henrynginx3 nginx // mapea el puerto 80 del contenedor a un puerto 8000 del windows(maquina local)  
 
 Tarea  
-script para levantar un contenedor tomcat
+script para levantar un contenedor tomcat  
 docker run -d -p 8888:8080  --name dockertomcat tomcat:9.0
