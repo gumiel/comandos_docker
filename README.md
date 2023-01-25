@@ -19,4 +19,6 @@ docker run -d -p 8000:80 --name henrynginx3 nginx // mapea el puerto 80 del cont
 
 Tarea  
 script para levantar un contenedor tomcat  
-docker run -d -p 8888:8080  --name dockertomcat tomcat:9.0
+docker run -d -p 8888:8080  --name dockertomcat tomcat:9.0  
+docker exec -it dockertomcat bash  
+docker stop dockertomcat  
